@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest .",
+    "test": "TS_JEST_LOG=ts-jest.log jest .",
     "type:check": "tsc --noEmit"
   },
   "devDependencies": {
