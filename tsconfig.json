@@ -1,17 +1,8 @@
 {
-  "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "noErrorTruncation": true,
-    "isolatedModules": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    // Enable once migrated to type module
-    // "verbatimModuleSyntax": true,
-
-    /* Strictness */
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true
-  },
-  "exclude": ["./dist"]
+    "lib": ["es2023"],
+    "module": "nodenext",
+    "target": "es2022",
+    "isolatedModules": true
+  }
 }

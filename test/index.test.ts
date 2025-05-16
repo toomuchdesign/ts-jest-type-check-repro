@@ -1,5 +1,7 @@
-import { describe, it, expect } from 'vitest';
-import { hello } from '../index';
+import { hello } from '../src/index';
+  
+// Type check error
+const foo: string = 1;
 
 describe('hello', () => {
   it('returns greeting', () => {
